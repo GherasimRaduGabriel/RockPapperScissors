@@ -91,7 +91,7 @@ function App() {
         </button>
       </div>
       <div>
-        <h1>Games played: {JJ} hahaha </h1>
+        <h1>Games played: {JJ}</h1>
       </div>
     </div>
   );
