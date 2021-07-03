@@ -5,6 +5,7 @@ import paper from "./Paper.png";
 import rock from "./Rock.png";
 import scissors from "./Scissors.png";
 import poza from "./poza.png";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const weapons = [paper, rock, scissors, poza];
@@ -71,24 +72,28 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="cont">
+      <div className="cont col">
         <h1>{whoWin}</h1>
       </div>
       <div className="cont">
-        <button type="button" className="btn" onClick={pickPaper}>
+        <div class="col-4"></div>
+        <button type="button" className="btnn col-1"  onClick={pickPaper}>
           Paper
         </button>
-        <button type="button" className="btn" onClick={pickRock}>
+        <button type="button" className="btnn col-1" onClick={pickRock}>
           Rock
         </button>
-        <button type="button" className="btn" onClick={pickScissors}>
+        <button type="button" className="btnn col-1" onClick={pickScissors}>
           Scissors
         </button>
+        <div class="col-4"></div>
       </div>
       <div className="cont">
-        <button type="button" className="btn" onClick={selectWinner}>
+        <div class="col-5"></div>
+        <button type="button" className="btnn col-1" onClick={selectWinner}>
           Start
         </button>
+        <div class="col-5"></div>
       </div>
       <div>
         <h1>Games played: {JJ}</h1>

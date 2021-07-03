@@ -20,17 +20,24 @@ div {
   margin-left: 20px;
   margin-bottom: 10px;
 }
-.btn {
-  font-size: 20px;
-  font-weight: bold;
+.btnn {
+  font-size: 30px !important;
+  font-weight: bold !important;
   background-color: white;
   text-align: center;
   cursor: pointer;
-  padding: 10px 20px;
+  padding: 5px 15px;
   border: solid 4px;
-  border-radius: 10%;
+  border-radius: 9%;
   margin-left: 30px;
 }
+.btnn:focus {
+  background-color: tomato;
+}
+/* .btn:visited { */
+/* text-decoration: none; */
+/* background-color: yellow; */
+/* } */
 .control {
   margin-top: 10px;
   text-align: center;
